@@ -17,12 +17,8 @@ homebrew_installed_packages:
   - ansible
   - autoconf
   - bash-completion
-  - docker
-  - docker-compose
-  - docker-machine
   - gettext
   - git
-  - go
   - gpg
   - hub
   - httpie
@@ -31,14 +27,9 @@ homebrew_installed_packages:
   - libevent
   - packer
   - python
-  - sqlite
   - mcrypt
-  - mysql
   - npm
   - nvm
-  - php56
-  - php56-mcrypt
-  - php56-xdebug
   - ssh-copy-id
   - cowsay
   - ios-sim
@@ -47,16 +38,15 @@ homebrew_installed_packages:
   - kdiff3
   - openssl
   - pv
-  - drush
   - wget
   - wrk
   - brew-cask
+  - mas
 
 homebrew_taps:
   - caskroom/cask
   - homebrew/binary
   - homebrew/dupes
-  - homebrew/php
   - homebrew/versions
 
 homebrew_cask_appdir: /Applications
@@ -64,7 +54,6 @@ homebrew_cask_apps:
   - adium
   - bettertouchtool
   - google-chrome
-  - dropbox
   - fing
   - firefox
   - handbrake
@@ -87,3 +76,5 @@ homebrew_cask_apps:
   - vagrant-manager
   - vlc
   - virtualbox
+appstore_apps:
+  - 
